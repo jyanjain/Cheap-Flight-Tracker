@@ -1,10 +1,6 @@
 import requests
 
-SHEETY_ENDPOINT = "https://api.sheety.co/13318cf8cddcec1ba147a11beded8f5e/flightDeals/prices"
 
-AUTHORIZATION_HEADER = {
-    "Authorization": "Bearer jyanjain123123"
-}
 class DataManager:
     
     def __init__(self):
